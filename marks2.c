@@ -1,3 +1,5 @@
+// ACCEPT MARKS AND DISPLAY PERCENTAGE AND ASSIGN GRADES (2)
+
 #include<stdio.h>
 void main (){
     float m1,m2,m3,m4,m5,per;

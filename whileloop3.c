@@ -3,8 +3,11 @@
 void main()
 {
 
-    int x = 0, osum = 0, esum = 0;
-    while (x <= 10)
+    int x = 0, osum = 0, esum = 0 , n ;
+    printf("Enter the number here :");
+    scanf ("%d", &n);
+    
+    while (x <=n)
     {
         if (x % 2 == 0)
             esum += x;

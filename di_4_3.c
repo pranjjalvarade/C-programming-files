@@ -1,3 +1,5 @@
+//         PRINTS THE NUMBERS WHICH ARE DIVISBLE BY 3 AND NOT 4
+
 #include <stdio.h>
 
 int main() {

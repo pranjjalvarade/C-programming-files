@@ -9,6 +9,7 @@ void main (){
 
     int i=0;
     int nos[noe];
+    printf("Enter the elements of the array:");
     for (i =0; i < noe ; i++)
     scanf("%d", &nos[i] );
 
@@ -20,13 +21,13 @@ void main (){
     for (i=0 ; i < noe ; i++)
     {
         //   The search begins here
-        if (nos[i]== s_no)
-        printf("The number %d found in the array after %d iterations", s_no , i+1);
-        else {
-            if (i== noe)
-            printf("Number not found in the array");
-            break;
-        }
+        if (nos[i]== s_no)    
+        break; 
     }
-
+        if (i==noe)
+        printf("Number not found in the array");
+        else 
+        printf("The number %d found in the array after %d iterations", s_no , i+1);
 }
+    
+
